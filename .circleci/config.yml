@@ -45,6 +45,10 @@ jobs:
           command: |
             npm install
             exit 1
+      - run:
+          name: Check current version of node
+          command: node -v
+          echo "aqui"
       - save_cache:
           paths: [frontend/node_modules]
           key: frontend-build
