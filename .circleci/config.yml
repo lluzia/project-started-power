@@ -12,6 +12,7 @@ jobs:
           name: Build front-end
           command: |
             npm i
+            exit 1
 
       - save_cache:
           paths: [frontend/node_modules]
@@ -27,7 +28,8 @@ jobs:
       - run:
           name: Back-end build
           command: |
-             npm i
+            npm i
+            exit 1
 
       - save_cache:
           paths: [backend/node_modules]
