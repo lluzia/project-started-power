@@ -48,7 +48,7 @@ jobs:
       - run:
           name: Check current version of node
           command: node -v
-          echo "aqui"
+          echo "hello"
       - save_cache:
           paths: [frontend/node_modules]
           key: frontend-build
