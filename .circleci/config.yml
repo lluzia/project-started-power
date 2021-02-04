@@ -42,10 +42,9 @@ jobs:
       - run:
           name: Build front-end
           command: |
-#            cd ~/project-started-power/frontend
             npm install
             npm audit
-#            npm fund
+#           npm fund
 #          exit 1
       - save_cache:
           paths: [frontend/node_modules]
