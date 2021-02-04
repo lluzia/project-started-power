@@ -40,18 +40,18 @@ jobs:
       - restore_cache:
          keys: [frontend-build]
       - run:
-        name: Build front-end
-        command: |
-#          cd ~/project-started-power/frontend
-          node -v
-          npm -v
+          name: Build front-end
+          command: |
+  #          cd ~/project-started-power/frontend
+            node -v
+            npm -v
 #            npm install
 #            npm audit fix
 #            npm fund
 #          exit 1
       - save_cache:
-        paths: [frontend/node_modules]
-        key: frontend-build
+          paths: [frontend/node_modules]
+          key: frontend-build
 
 #  build-backend:
 #    docker:
