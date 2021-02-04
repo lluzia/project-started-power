@@ -42,9 +42,9 @@ jobs:
       - run:
           name: Build front-end
           command: |
-  #          cd ~/project-started-power/frontend
             node -v
             npm -v
+  #          cd ~/project-started-power/frontend
 #            npm install
 #            npm audit fix
 #            npm fund
