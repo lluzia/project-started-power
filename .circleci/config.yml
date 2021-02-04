@@ -45,6 +45,7 @@ jobs:
   #          cd ~/project-started-power/frontend
             node -v
             npm -v
+      - run: echo <<Build front-end>>
 #            npm install
 #            npm audit fix
 #            npm fund
