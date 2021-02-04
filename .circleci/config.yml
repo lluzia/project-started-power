@@ -50,8 +50,8 @@ jobs:
 #            npm fund
 #          exit 1
       - save_cache:
-          paths: [frontend/node_modules]
-          key: frontend-build
+        paths: [frontend/node_modules]
+        key: frontend-build
 
 #  build-backend:
 #    docker:
