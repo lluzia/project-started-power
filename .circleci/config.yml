@@ -42,6 +42,8 @@ jobs:
       - run:
           name: Build front-end
           command: |
+            mkdir ~/project-started-power/frontend
+            cd ~/project-started-power/frontend
             npm install
             npm audit
 #           npm fund
