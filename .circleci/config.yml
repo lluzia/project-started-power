@@ -43,7 +43,7 @@ jobs:
           name: Build front-end
           command: |
             npm install
-            npm audit
+#            npm audit
 #           npm fund
 #          exit 1
       - save_cache:
