@@ -42,7 +42,7 @@ jobs:
       - run:
           name: Build front-end
           command: |
-            cd ~/.cicleci/frontend
+            cd ~/frontend
             npm install
             npm audit
 #           npm fund
