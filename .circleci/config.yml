@@ -44,7 +44,8 @@ jobs:
           command: |
             cd ~/project/backend
             npm install
-            npm audit fix --force
+            npm audit fix
+            npm fund
             exit 1
       - save_cache:
           paths: [frontend/node_modules]
