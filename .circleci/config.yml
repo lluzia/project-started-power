@@ -42,8 +42,9 @@ jobs:
       - run:
           name: Build front-end
           command: |
-            cd project-started-power/frontend
+            cd frontend
             npm install
+            npm run build
 #            npm audit
 #           npm fund
 #          exit 1
