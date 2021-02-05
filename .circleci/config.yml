@@ -42,6 +42,7 @@ jobs:
       - run:
           name: Build front-end
           command: |
+            cd /frontend
             npm install
 #            npm audit
 #           npm fund
